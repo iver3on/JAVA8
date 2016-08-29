@@ -31,10 +31,10 @@ Lambda表达式用于表示一个函数，所以它和函数一样，也拥有�
 
 (Person person)—>person.getAge()>30
 1
-Lambda表达式用—>连接，->左侧为函数的参数，->右侧为函数体。 
-若右侧由多条语句构成则需要用{}包裹，如：
+> Lambda表达式用—>连接，->左侧为函数的参数，->右侧为函数体。 
+> 若右侧由多条语句构成则需要用{}包裹，如：
 
-(Person person)—>{person.getAge()>30;System.out.println(person.getName());}
+> (Person person)—>{person.getAge()>30;System.out.println(person.getName());}
 1
 Lambda表达式无需显示指定返回值类型，JVM会根据->右侧语句的返回结果自动判断返回值类型，如：
 
